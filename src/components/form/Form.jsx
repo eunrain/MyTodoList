@@ -7,6 +7,7 @@ function Form({ todos, setTodos }) {
     const [body, setBody] = useState();
 
     const handlerAddTodo = () => {
+        if(title.length < 1 || body.length < 1) return;
         setTodos([...todos, {
             id: todos.length + 1,
             title: title,
