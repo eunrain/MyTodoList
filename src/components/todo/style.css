@@ -1,0 +1,42 @@
+.todo {
+    border: 4px solid teal;
+    border-radius: 12px;
+    padding: 12px 24px 24px;
+    width: 270px;
+    word-break: break-all;
+    margin-bottom: 15px;
+}
+
+.todo-title {
+    display: block;
+    font-weight: bold;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+.todo-button {
+    display: flex;
+    gap: 10px;
+    margin-top:24px;
+}
+
+.todo-del {
+    background-color: white;
+    border: 2px solid red;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 50%;
+}
+
+.todo-cle {
+    background-color: white;
+    border: 2px solid green;
+    border-radius: 8px;
+    cursor: pointer;
+    height: 40px;
+    width: 50%;
+}
